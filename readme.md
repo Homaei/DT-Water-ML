@@ -53,10 +53,11 @@ The easiest way to reproduce the results is to click the **Open in Colab** badge
 
 ### Method 2: Local Execution
 1.  Clone the repository:
-    ```bash
-    git clone [https://github.com/USERNAME/REPO_NAME.git](https://github.com/USERNAME/REPO_NAME.git)
-    cd REPO_NAME
+```bash
+    git clone [https://github.com/Homaei/DT-Water-ML.git](https://github.com/Homaei/DT-Water-ML.git)
+    cd DT-Water-ML
     ```
+    
 2.  Install dependencies:
     ```bash
     pip install -r requirements.txt
