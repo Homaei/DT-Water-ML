@@ -1,6 +1,6 @@
 # CAUCCES: Risk-Aware Maintenance Scheduling in Water Networks via Digital Twins
 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/USERNAME/REPO_NAME/blob/main/CAUCCES_Digital_Twin_Implementation.ipynb)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Homaei/DT-Water-ML/blob/main/CAUCCES_Digital_Twin_Implementation.ipynb)
 ![Python](https://img.shields.io/badge/Python-3.8%2B-blue)
 ![License](https://img.shields.io/badge/License-MIT-green)
 ![Status](https://img.shields.io/badge/Status-Research%20Prototype-orange)
@@ -38,11 +38,11 @@ A lightweight metric derived from Information Theory to quantify epistemic uncer
 
 The implementation follows the pipeline described in the paper:
 
-1.  **Data Ingestion:** Synthetic generation of Water Consumption ($W_t$), Temperature ($T_{max}, T_{min}$), Precipitation, and Humidity.
-2.  **Preprocessing:** Lag generation, Rolling means, and Environmental feature extraction.
-3.  **Modeling:** Training of independent forecasters.
-4.  **Fusion:** Dynamic weighting based on prediction variance.
-5.  **Decision Support:** The Scheduler receives $W_{pred}$ and $ECI_t$ to output an optimal Gantt chart for maintenance crews.
+1. **Data Ingestion:** Synthetic generation of Water Consumption ($W_t$), Temperature ($T_{max}, T_{min}$), Precipitation, and Humidity.
+2. **Preprocessing:** Lag generation, Rolling means, and Environmental feature extraction.
+3. **Modeling:** Training of independent forecasters.
+4. **Fusion:** Dynamic weighting based on prediction variance.
+5. **Decision Support:** The Scheduler receives $W_{pred}$ and $ECI_t$ to output an optimal Gantt chart for maintenance crews.
 
 ---
 
@@ -52,17 +52,16 @@ The implementation follows the pipeline described in the paper:
 The easiest way to reproduce the results is to click the **Open in Colab** badge at the top of this README. The notebook handles all dependency installations automatically.
 
 ### Method 2: Local Execution
-1.  Clone the repository:
-```bash
+1. Clone the repository:
+    ```bash
     git clone [https://github.com/Homaei/DT-Water-ML.git](https://github.com/Homaei/DT-Water-ML.git)
     cd DT-Water-ML
     ```
-    
-2.  Install dependencies:
+2. Install dependencies:
     ```bash
     pip install -r requirements.txt
     ```
-3.  Run the notebook via Jupyter Lab or VS Code.
+3. Run the notebook via Jupyter Lab or VS Code.
 
 ---
 
@@ -90,4 +89,3 @@ If you use this code or the CAUCCES framework in your research, please cite the 
   year={2025},
   note={Under Review}
 }
-
