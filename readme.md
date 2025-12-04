@@ -79,13 +79,14 @@ The easiest way to reproduce the results is to click the **Open in Colab** badge
 
 ## 📜 Citation
 
-If you use this code or the CAUCCES framework in your research, please cite the original paper:
+If you use this code or the CAUCCES framework in your research, please cite the work as follows:
 
 ```bibtex
-@article{Homaei2024CAUCCES,
+@article{Homaei2025RiskAware,
   title={Risk-Aware Maintenance Scheduling in Water Networks via Digital Twins},
   author={Homaei, Mohammadhossein and Mogollon-Gutierrez, Oscar and Rezaee, Mostafa and Caro, Andres and Avila, Mar},
-  journal={Springer Nature / SN Computer Science},
-  year={2024},
-  note={Implementation available at GitHub}
+  journal={Applied Intelligence},
+  year={2025},
+  note={Under Review}
 }
+
